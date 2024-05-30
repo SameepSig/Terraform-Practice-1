@@ -9,8 +9,3 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
-
-output "instance_id" {
-  description = "The ID of the AWS instance"
-  value       = aws_instance.sameep-terraform-webs.id
-}
